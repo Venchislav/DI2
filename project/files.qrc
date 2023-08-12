@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="logo">
+    <file>logo.png</file>
+    <file>Dive in 2-logos_transparent.png</file>
+    <file>Dive in 2-logos.jpeg</file>
+    <file>Dive in 2-logos_black.png</file>
+    <file>Dive in 2-logos_white.png</file>
+  </qresource>
+</RCC>
