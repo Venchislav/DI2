@@ -1,0 +1,15 @@
+<RCC>
+  <qresource prefix="logo">
+    <file>more.png</file>
+    <file>magnifying-glass.png</file>
+    <file>arrow.png</file>
+    <file>arrows.png</file>
+    <file>rounded-in-photoretrica.png</file>
+    <file>reload.png</file>
+    <file>logo.png</file>
+    <file>Dive in 2-logos_transparent.png</file>
+    <file>Dive in 2-logos.jpeg</file>
+    <file>Dive in 2-logos_black.png</file>
+    <file>Dive in 2-logos_white.png</file>
+  </qresource>
+</RCC>
