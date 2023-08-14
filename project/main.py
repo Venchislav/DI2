@@ -182,18 +182,6 @@ class MainWindow(QMainWindow):
         self.urlbar.setText('http://di2-proj-of.tilda.ws/help')
         self.navigate_to_url()
 
-    def on_pushButton_clicked(self):
-        self.dialog.show()
-
-
-    def open_settings_dw(self):
-        qa = QMainWindow()
-        tb = QToolBar('settings')
-        qa.addToolBar(tb)
-        while not self.add_new_tab():
-            qa.show()
-            qa.setWindowTitle("DI2-Settings")
-
     def add_new_tab(self, qurl=None, label="Blank"):
         if qurl is None:
             qurl = QUrl('https://duckduckgo.com/')
