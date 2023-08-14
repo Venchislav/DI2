@@ -78,6 +78,13 @@ class MainWindow(QMainWindow):
         stop_btn.triggered.connect(lambda: self.tabs.currentWidget().stop())
         navtb.addAction(stop_btn)
 
+        help = QAction("", self)
+        help.setStatusTip("Q")
+        help.setIcon(QIcon('.\img\doubts-button.png'))
+        help.triggered.connect(self.help)
+        navtb.addAction(help)
+
+
         logo = QAction("", self)
         logo.setIcon(QIcon(".\img\logo.png"))
         navtb.addAction(logo)
@@ -170,6 +177,10 @@ class MainWindow(QMainWindow):
                             padding-right: 5px;
                         }
 				        """)
+
+    def help(self):
+        self.urlbar.setText('http://di2-proj-of.tilda.ws/help')
+        self.navigate_to_url()
 
     def on_pushButton_clicked(self):
         self.dialog.show()
